@@ -32,8 +32,41 @@ Multi-source datasets were integrated into the database system, for redundant da
 ### Data management
 The datasets used in this research were managed in the database system in MS SQL server and PostgreSQL databases.
 
-### API Server
-The API server, which is developed by `Express.js`, can be accessed through [http://128.95.29.72:3010](http://128.95.29.72:3010). The path is set in `./src/constants/domain.js`, which can be replaced by customized datasets and API servers.
+## How to Setup API Server
+
+This section provides guidance for setting up Express-based client development and deployment environments for Yakama Nation Roadway Safety Data Portal API Server.
+
+### Prerequisite
+The API server, which is developed by `Express.js`. Therefore, [Node.js](https://nodejs.org/en/) needs to be installed to use `npm` and `webpack` for client code development and deployment.
+
+### Steps to set up and run the server
+- Git clone source code from this repository and install all dependencies.
+
+```
+ git clone https://github.com/AI-Group-STAR-Lab-UW/yakama-nation-roadway-safety-data-portal.git
+ cd yakama-nation-roadway-safety-data-portal/yakama-nation-roadway-safety-data-portal-server/
+ npm install
+```
+
+- Host the API Server in your local site.
+
+```
+nodemon app.js
+```
+If nodemon is not recognized as internal or external command, add the `npm prefix path` to the `environment variables`. Please visit here for the more detailed solution: [Link](https://stackoverflow.com/questions/51278650/nodemon-is-not-recognized-as-an-internal-or-external-command-while-running-us).
+
+Or you can either run the following command to host the server.
+```
+node app.js
+```
+
+- Check if the API server run successfully. Go to [http://localhost:3010](http://localhost:3010) see if the website shows `Yakama Nation Roadway Safety Data Portal API Server Running!`.
+
+- Customized server port. The port number can be set in `app.js`.
+
+### Live Demo API Server
+
+The official-hosted API server can be accessed through [http://128.95.29.72:3010](http://128.95.29.72:3010).
 
 ## How to Setup Yakama Nation Roadway Safety Data Portal
 
@@ -43,13 +76,13 @@ This section provides guidance for setting up React-based client development and
 [Node.js](https://nodejs.org/en/) needs to be installed to use `npm` and `webpack` for client code development and deployment.
 
 ### Steps to set up and run the tool
-- Check if the API server run successfully. Go to [http://128.95.29.72:3010](http://128.95.29.72:3010) and see if the website shows `Yakama Nation Roadway Safety Data Portal API Server Running!`.
+- Check if the API server run successfully. Go to [http://128.95.29.72:3010](http://128.95.29.72:3010) and see if the website shows `Yakama Nation Roadway Safety Data Portal API Server Running!`. You can also customize your own API Server based on the given datasets. The path is set in `./yakama-nation-roadway-safety-data-portal/yakama-nation-roadway-safety-data-portal/src/constants/domain.js`, which can be replaced by customized API server urls.
 
 - Git clone source code from this repository and install all dependencies.
 
 ```
  git clone https://github.com/AI-Group-STAR-Lab-UW/yakama-nation-roadway-safety-data-portal.git
- cd yakama-nation-roadway-safety-data-portal
+ cd yakama-nation-roadway-safety-data-portal/yakama-nation-roadway-safety-data-portal/
  npm install
 ```
 
