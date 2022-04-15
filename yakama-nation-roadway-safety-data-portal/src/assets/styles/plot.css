@@ -1,0 +1,61 @@
+svg {
+  display: block;
+  margin: auto;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.axis-grid line {
+  fill: none;
+  stroke: #ABB2B9;
+}
+
+.axis-label {
+    text-anchor: middle;
+    font-size: 15px;
+}
+
+.chart-title {
+  text-anchor: middle;
+  font-size: 25px;
+  font-weight:bold;
+  text-align: center;
+}
+
+.chart-subtitle {
+  text-anchor: middle;
+  font-size: 15px;
+  text-align: center;
+}
+
+tr:nth-of-type(odd) {
+	background: #eee;
+}
+
+table {
+  margin: 0 10px 10px 10px;
+}
+
+th {
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}
+
+.loading-animation {
+  width: 100%;
+}

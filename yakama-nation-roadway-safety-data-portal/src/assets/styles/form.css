@@ -1,0 +1,153 @@
+.submit-form {
+  position: absolute;
+  z-index: 1034;
+  width: 50vw;
+  top: 50vh;
+  right: calc((100vw)/2);
+  margin-right: -25vw;
+  max-height: 85vh;
+  transform: translateY(-40vh);
+  overflow-y: scroll;
+}
+
+.submit-form h3{
+  font-size: 28px;
+}
+
+.submit-form-summary {
+  position: absolute;
+  z-index: 1034;
+  width: 60vw;
+  top: 50vh;
+  right: calc((100vw)/2);
+  margin-right: -30vw;
+  max-height: 85vh;
+  transform: translateY(-40vh);
+  overflow-y: scroll;
+}
+
+.submit-form-summary h3{
+  font-size: 28px;
+}
+
+.submit-form-plot {
+  position: absolute;
+  z-index: 1000;
+  width: 50vw;
+  top: 50vh;
+  right: calc((100vw)/2);
+  margin-right: -25vw;
+  overflow-y: scroll;
+  max-height: 85vh;
+  transform: translateY(-40vh);
+}
+
+.animation-plot {
+  position: absolute;
+  z-index: 1034;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.min-submit-form {
+  position: fixed;
+  z-index: 1034;
+  width: 15vw;
+  top: 77px;
+  right: 5px;
+  padding: 5px;
+  overflow-y: scroll;
+  max-height: calc(100vh - 100px);
+}
+
+.min-submit-form-2 {
+  position: fixed;
+  z-index: 999;
+  width: 20vw;
+  top: 77px;
+  right: 5px;
+  padding: 5px;
+  overflow-y: scroll;
+  max-height: calc(100vh - 100px);
+}
+
+.min-submit-form-3 {
+  position: fixed;
+  z-index: 999;
+  width: 20vw;
+  top: 50vh;
+  right: 5px;
+  padding: 5px;
+  overflow-y: scroll;
+  max-height: calc(100vh - 100px);
+}
+
+.ct-label {
+  color: black;
+  font-size: 15px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.transparency {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.shadow {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-small {
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.min-modal {
+  padding: 3px;
+}
+
+p.modal {
+  color: black;
+}
+
+.leaflet-style {
+  /* position: absolute; */
+  z-index: 2;
+  width: calc(100vw - 300px);
+  height: 90vh;
+  right: 0px;
+}
+
+.overlay-mask {
+  position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .5;
+	z-index: 1033;
+}
+
+.blur-content {
+  filter: blur(2px);
+}
+
+.close-button {
+  font-size: 40px;
+}
+
+.DateRangePicker, .SingleDatePicker {
+  width: 100%;
+}
+
+
+/* For react-time-picker */
+.react-time-picker__wrapper {
+  border: none;
+}
+
+.react-time-picker__clear-button, .react-time-picker__button {
+  cursor: default !important;
+}

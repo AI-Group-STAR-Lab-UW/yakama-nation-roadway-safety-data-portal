@@ -1,0 +1,101 @@
+.contact-us {
+  padding: 0 30px 5px;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 30px;
+  .legend {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    .item {
+      margin-right: 10px;
+    }
+  }
+}
+
+
+.sign-in-button p{
+  color: #0A1F61;
+  font-family: "Lato",sans-serif;
+  /* text-decoration: none; */
+  letter-spacing: 0.10em;
+  display: inline-block;
+  padding-bottom: 5px ;
+  position: relative;
+  font-size: 20px;
+  line-height: 0;
+}
+
+/* .sign-in-button p:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #4b2e83;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.sign-in-button p:hover:after {
+  width: 100%;
+  left: 0;
+} */
+
+.notification-box {
+  padding: 8px;
+  position: fixed;
+  z-index: 1035;
+  background-color: rgba(244, 235, 193,0.8);
+  top: 0px;
+  width: 100%;
+  border-bottom: 2px solid #726a95;
+}
+
+.notification-box-hide {
+  display: none;
+}
+
+.notification-box-message {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 17px;
+}
+
+.notification-box-dismiss {
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 25px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  line-height: 25px;
+  color: #726a95;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-weight: bold;
+  text-align: center;
+  float: right;
+  display: inline-block;
+  background: transparent;
+}
+
+.notification-box-dismiss:hover {
+  background-color: #726a95;
+  color: white;
+}
+
+.hyper-link {
+
+
+}
+
+.hyper-link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}

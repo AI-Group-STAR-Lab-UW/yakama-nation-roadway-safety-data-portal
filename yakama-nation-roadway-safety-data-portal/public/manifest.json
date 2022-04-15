@@ -1,0 +1,8 @@
+{
+  "short_name": "Traffic Safety Tool",
+  "name": "Digital Roadway Interactive Visualization and Evaluation Network",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

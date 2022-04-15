@@ -1,0 +1,12 @@
+.colorbar {
+  width: 150px;
+  height: 20px;
+}
+
+.colorbarContainer {
+  top: 77px;
+  padding: 10px 10px 0px 10px;
+  position: fixed;
+  right: 16vw;
+  z-index: 1000;
+}

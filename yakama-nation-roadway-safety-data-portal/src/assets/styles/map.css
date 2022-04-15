@@ -1,0 +1,69 @@
+.map {
+    height: calc(100vh - 75px);
+    right: 0px;
+}
+
+.oba-bus-stop-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.pop-up {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.intersection {
+    background: transparent;
+    border: none;
+}
+
+.acc-point-icon {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.alert-icon {
+
+}
+
+.camera-icon {
+
+}
+
+.mt-pass-icon, .border-crossing-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.terminal-stop-service {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.terminal-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+
+.select-layer-type {
+  position: relative;
+  z-index: 1032;
+  left: 50px;
+  top: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  border-width: 3px;
+  font-size: 14px;
+  width: 75px;
+  height: 75px;
+  border-color:white;
+}
+
+.select-layer-type:hover {
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
