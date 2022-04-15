@@ -78,7 +78,7 @@ This section provides guidance for setting up React-based client development and
 ### Steps to set up and run the tool
 - Check if the API server run successfully. Go to [http://128.95.29.72:3010](http://128.95.29.72:3010) and see if the website shows `Yakama Nation Roadway Safety Data Portal API Server Running!`. You can also customize your own API Server based on the given datasets. The path is set in `./yakama-nation-roadway-safety-data-portal/yakama-nation-roadway-safety-data-portal/src/constants/domain.js`, which can be replaced by customized API server urls.
 
-<img src="./readme_assets/API server.png" width="100%">
+<img src="./readme_assets/API server.png" width="80%">
 
 - Git clone source code from this repository and install all dependencies.
 
